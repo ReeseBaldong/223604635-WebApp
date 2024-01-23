@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html_Exercise_01</title>
+    <header>
+        <h2>Web App</h2>
+    </header>
 </head>
 <body>
-    <h1>Html_Exercise_01</h1>
-    <h1></h1>
 
     <nav>
         <ul>
-            <li><a href="/Home">Home</a></li>
-            <li><a href="/About us">About us</a></li>
-            <li><a href="/Contact">Contact</a></li>
+            <h3>Links</h3>
+            <li><a href="https://google.com/Home">Home</a></li>
+            <li><a href="https://facebook.com/About us">About us</a></li>
+            <li><a href="https://messenger.com/Contact">Contact</a></li>
         </ul>
     </nav>
-    <img src="images.jpeg" alt="Cat">
 
     <h2>Fill the Following</h2>
+    <nav>
     <form>
         <label for="name">Name:</label>
         <input type="text" id="Name" name="Name">
@@ -35,9 +37,28 @@
         <input type="checkbox" id="Agree" name="Agree">
         <label for="agree">Accept Terms and Conditions</label><br>
         <input type="submit" value="Submit Form">
+    </nav>
     </form>
-    
+
+    <br>
+
     <table>
+    <h2>Tables</h2>
+        <head>
+            <style>
+                table {
+                    border-collapse: collapse;
+                    width: 60%;
+                }
+
+                th, td {
+                    border: 1px solid black;
+                    padding: 8pax;
+                    text-align: left;
+                }
+            </style>
+        </head>
+
         <tr>
             <th>Name</th>
             <th>Age</th>
@@ -54,5 +75,28 @@
             <th>London</th>
         </tr>
     </table>
+
+    <br>
+    <h2>Garfield</h2>
+    <img src="images.jpeg" alt="Cat">
+    <br>
+    <br>
+
+    <h2>purr</h2>
+    <audio controls>
+        <source src="Cat purring.mp3" type="audio/mpeg">
+    </audio>
+    <br>
+    <br>
+
+    <h2>Cats</h2>
+    <video controls>
+        <source src="Ratchet.mp4" type="video/quicktime">
+    </video>
+
+
+    <footer>
+        <h2>End</h2>
+    </footer>
 </body>
 </html>
